@@ -29,6 +29,9 @@ tanggal 13 agustus 2025
 !
 
     4. copy/drag file RouterOS yang telah didownload tadi dari Windows ke Mikrotik.  
+
+!
+
     5. kita akan mengupgrade via winbox, pergi ke Files > upload > cari dan pilih RouterOS yang sudah di download.  
     6. Selanjutnya kita tinggal reboot Mikrotiknya saja klik  System > reboot.
     7. tunggu sampai selesai dan login kembali. maka, akan terlihat di tampilan neighbors bagian version muncul upgrade tdi v7
@@ -49,7 +52,12 @@ tanggal 13 agustus 2025
     4. Proses download akan berjalan dan tunggu sampai system reboot secara otomatis.
   # Downgrade Router OS  
 
-    1. pastikan file os versi lama masi ada, lalu buka menu system -> packages
+    1. pastikan file os versi lama masi ada, lalu buka menu system -> packages  
+
+!
+
     2. Klik Downgrade, lalu "yes" 
+
+!
     3. tunggu hingga proses reboot selesai, maka akan masuk kembali dengan versi lama 
 
