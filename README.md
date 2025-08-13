@@ -25,6 +25,9 @@ tanggal 13 agustus 2025
 
     3. jika sudah di download, Buka Windows Explorer, kemudian pada address bar ketikkan ftp://[IP Router]. Contoh ftp://10.46.1.15  
        pas pop up muncul masukan username: admin, pass kosong lalu klik log on.  
+
+!
+
     4. copy/drag file RouterOS yang telah didownload tadi dari Windows ke Mikrotik.  
     5. kita akan mengupgrade via winbox, pergi ke Files > upload > cari dan pilih RouterOS yang sudah di download.  
     6. Selanjutnya kita tinggal reboot Mikrotiknya saja klik  System > reboot.
