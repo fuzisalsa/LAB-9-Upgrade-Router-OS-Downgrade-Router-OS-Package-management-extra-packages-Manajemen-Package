@@ -1,7 +1,6 @@
 # LAB-9-Upgrade-Router-OS-Downgrade-Router-OS-Package-management-extra-packages-Manajemen-Package
 tanggal 13 agustus 2025
 
-!
 
 **Siswa mampu melakukan :**
 -  Upgrade Router OS  
