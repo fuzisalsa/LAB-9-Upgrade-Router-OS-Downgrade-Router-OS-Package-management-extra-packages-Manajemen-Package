@@ -107,24 +107,35 @@ masuk ke **system > package**
 
 ![m](A2.PNG)
 
-![m](A2.PNG)
+![m](A3.PNG)
 
    4. Nah setelah diupload dan berhasil, file tersebut secara otomatis akan muncul di tab file list.
 
 ![m](a4.PNG)
      
-   5. Untuk menerapkan instalasi/kofigurasi, kita bisa lakukan reboot, pilih system > reboot
+   5. Untuk menerapkan instalasi/kofigurasi, kita bisa lakukan reboot, pilih system > reboot  
 **sebelum Reboot :**
 
 ![m](a01.PNG)
 
-    6. Setelah proses reboot selesai, kita masuk lagi mikrotiknya melalui winbox, dan cek packages list nya, apakah bertambah?, nah setelah proses penamabahan paket berhasil, paket list        nya akan bertambah contoh pertama tadi 11 list menjadi 23.
+    6. Setelah proses reboot selesai, kita masuk lagi mikrotiknya melalui winbox,  
+       dan cek packages list nya, apakah bertambah?, nah setelah proses penamabahan paket berhasil,  
+       paket list nya akan bertambah contoh pertama tadi 11 list menjadi 23.
 
 ![m](02.PNG)
       
-
-
-
+   # RouterBOOT  
+RouterBOOT adalah bootloader firmware milik MikroTik, yaitu bagian sistem tingkat rendah (low-level firmware)  
+yang berfungsi seperti BIOS atau UEFI pada komputer.
+  - RouterBOARD reset Button  
+    tahan tombol 5 detik lebih lama lagi sampai LED Light mati, lalu lepaskan tombol untuk membuat RouterBOARD tampil di Netinstall servers (total 15 detik).  
+  - simple upgarde  
+    Tekan dan tahan lebih lama (beberapa detik setelah LED cepat) Untuk upgrade atau downgrade RouterBOOT firmware.  
   
-   # RouterBOOT
+   # Kesimpulan 
+upgrade Memperbarui sistem operasi untuk menambahkan fitur baru.
+Downgrade RouterOS Mengembalikan versi RouterOS ke versi sebelumnya.
+Package Management seperti (instal, hapus, aktif/nonaktif) modul" juga untuk menyesuaikan kebutuhan jaringan.
+Extra Packages untuk menambahkan Paket" baru yang di butuhkan  
+RouterBOOT Firmware dasar MikroTik yang mengatur proses booting awal, juga dapat diperbarui untuk kompatibilitas dan stabilitas.
 
