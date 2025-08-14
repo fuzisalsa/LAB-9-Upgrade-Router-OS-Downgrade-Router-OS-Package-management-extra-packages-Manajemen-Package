@@ -100,7 +100,7 @@ masuk ke **system > package**
   2. jika sudah terdownload, Ekstra paketnya, agar bisa terinstal.
   3. jika sudah ter extrak pilih salah satu file yang ingin kalian install pada mikrotik.
   4. Untuk menginstall nya kita buka dulu menu file pada mikrotik.
-  5.Setelah buka menu file nantinya akan muncul new tab file list, nah paket yang kita ekstrak tadi, tinggal kita drag saja ke winboxnya, file packages nya nanti akan tersimpan pada file list ini.
+  5. Setelah buka menu file nantinya akan muncul new tab file list, nah paket yang kita ekstrak tadi, tinggal kita drag saja ke winboxnya, file packages nya nanti akan tersimpan pada file list ini.
   6. Proses upload pakages sedang dilakukan mohon ditunggu sebentar
   7. Nah setelah diupload (pastikan versinya dan jenis nya sama dengan mikrotik os yang kita gunakan) dan berhasil, file tersebut secara otomatis akan muncul di tab file list.
   8. Bila mana anda kurang yakin dengan versinya, apakah sudah sama atau belum, anda bisa buka menu system dan pilih resources, kita bisa cocokan versinya.
