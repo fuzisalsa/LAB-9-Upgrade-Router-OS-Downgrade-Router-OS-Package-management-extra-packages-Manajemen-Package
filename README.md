@@ -59,3 +59,57 @@ tanggal 13 agustus 2025
 
     3. tunggu hingga proses reboot selesai, maka akan masuk kembali dengan versi lama 
 
+![m](versi6.PNG)
+
+   # Package management
+   Di MikroTik, paket (package) adalah bagian modular dari RouterOS yang menambahkan fungsi tertentu ke sistem. Setiap fungsi utama di MikroTik — seperti routing, VPN, firewall, wireless, DHCP, hotspot, dll — dikemas dalam bentuk paket. untuk melihat paket,  
+masuk ke **system > package**  
+
+      system: Paket inti RouterOS (wajib).    
+      advanced-tools: Menyediakan tools tambahan seperti Netwatch, Ping Tool, dll.      
+      dhcp: DHCP server dan client.  
+      firewall: Fitur firewall (NAT, mangle, dll).    
+      hotspot: Mendukung sistem login hotspot.    
+      ipv6: Dukungan protokol IPv6.    
+      mpls: Fitur MPLS (digunakan untuk ISP).  
+      ppp: Protokol PPP, termasuk PPPoE, PPTP, L2TP, SSTP.  
+      routing: dukungan routing dinamis (OSPF, BGP, RIP).  
+      security: IPsec, SSTP, firewall, dll.  
+      ntp: Network Time Protocol (client dan server).  
+      wireless: Dukungan perangkat wireless (AP/Client).  
+      user-manager: Manajemen pengguna untuk hotspot, PPP, dan lainnya.  
+      zerotier: VPN hybrid berbasis cloud.  
+      ups: Monitoring UPS (Uninterruptible Power Supply).  
+      lte: Dukungan modem LTE/4G.  
+
+**Manajemen paket digunakan untuk:**  
+
+     check for update: Mengecek versi terbaru RouterOS dan paket dari MikroTik.    
+     enable: Mengaktifkan paket yang sebelumnya dinonaktifkan (jika didukung). Tidak semua paket bisa dinonaktifkan.     
+     disable: Menonaktifkan paket tanpa menghapusnya (jarang digunakan). Tidak semua paket bisa dinonaktifkan.  
+     uninstall: Menghapus paket opsional dari RouterOS. Paket inti tidak bisa dihapus.  
+     unschedule: Membatalkan jadwal update otomatis RouterOS (jika ada).  
+     downgrade: Menurunkan versi RouterOS dan paket ke versi sebelumnya (jika tersedia).  
+     check installation: Memverifikasi apakah paket sudah terinstal dan berfungsi dengan baik.  
+
+   # extra packages 
+
+   1. untuk mendapatkan ektra packages mikrotiknya kita bisa unduh file tersebut pada kedua alamat website ini,  
+      https://mikrotik.com/download/archive dan https://mikrotik.com/download   
+      pilih paket sesuai dengan versi router os yang anda miliki.
+  2. jika sudah terdownload, Ekstra paketnya, agar bisa terinstal.
+  3. jika sudah ter extrak pilih salah satu file yang ingin kalian install pada mikrotik.
+  4. Untuk menginstall nya kita buka dulu menu file pada mikrotik.
+  5.Setelah buka menu file nantinya akan muncul new tab file list, nah paket yang kita ekstrak tadi, tinggal kita drag saja ke winboxnya, file packages nya nanti akan tersimpan pada file list ini.
+  6. Proses upload pakages sedang dilakukan mohon ditunggu sebentar
+  7. Nah setelah diupload (pastikan versinya dan jenis nya sama dengan mikrotik os yang kita gunakan) dan berhasil, file tersebut secara otomatis akan muncul di tab file list.
+  8. Bila mana anda kurang yakin dengan versinya, apakah sudah sama atau belum, anda bisa buka menu system dan pilih resources, kita bisa cocokan versinya.
+  9. SS list paket sebelum kita lakukan penambahan extra paket, jumlah total ada 19 item,
+  10. Untuk menerapkan instalasi/kofigurasi, kita bisa lakukan reboot, masuk pada mode teminal masukkan perintah berikut.
+  11. Setelah proses reboot selesai, kita masuk lagi mikrotiknya melalui winbox, dan cek packages list nya, apakah bertambah?, nah setelah proses penamabahan paket berhasil, paket list  nya akan bertambah contoh pertama tadi 19 list menjadi 21, contoh nama pakages yang bertambah disini bisa dilihat pada ss yang sudah saya berikan tanda tersebut.
+
+
+
+  
+   # RouterBOOT
+
