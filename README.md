@@ -82,7 +82,7 @@ masuk ke **system > package**
       ups: Monitoring UPS (Uninterruptible Power Supply).  
       lte: Dukungan modem LTE/4G.  
 
-!
+![m](a6.PNG)
 
 **Manajemen paket digunakan untuk:**  
 
@@ -100,25 +100,27 @@ masuk ke **system > package**
       https://mikrotik.com/download/archive dan https://mikrotik.com/download   
       pilih paket sesuai dengan versi router os yang anda miliki.
 
-![m]()
+![m](a1.PNG)
 
    3. jika sudah terdownload, Untuk menginstall nya ke winbox buka file explorer masukan (ftp://[ip mikrotik]) lihat seperti yang di gambar lalu klik log on
       copy kan, dan paste tunggu hingga beres.
 
-![m]()
+![m](A2.PNG)
+
+![m](A2.PNG)
 
    4. Nah setelah diupload dan berhasil, file tersebut secara otomatis akan muncul di tab file list.
 
-![m]()
+![m](a4.PNG)
      
    5. Untuk menerapkan instalasi/kofigurasi, kita bisa lakukan reboot, pilih system > reboot
-      sebelum:
+**sebelum Reboot :**
 
-![m]()
+![m](a01.PNG)
 
     6. Setelah proses reboot selesai, kita masuk lagi mikrotiknya melalui winbox, dan cek packages list nya, apakah bertambah?, nah setelah proses penamabahan paket berhasil, paket list        nya akan bertambah contoh pertama tadi 11 list menjadi 23.
 
-![m]()
+![m](02.PNG)
       
 
 
