@@ -82,6 +82,8 @@ masuk ke **system > package**
       ups: Monitoring UPS (Uninterruptible Power Supply).  
       lte: Dukungan modem LTE/4G.  
 
+!
+
 **Manajemen paket digunakan untuk:**  
 
      check for update: Mengecek versi terbaru RouterOS dan paket dari MikroTik.    
@@ -97,16 +99,27 @@ masuk ke **system > package**
    1. untuk mendapatkan ektra packages mikrotiknya kita bisa unduh file tersebut pada kedua alamat website ini,  
       https://mikrotik.com/download/archive dan https://mikrotik.com/download   
       pilih paket sesuai dengan versi router os yang anda miliki.
-  2. jika sudah terdownload, Ekstra paketnya, agar bisa terinstal.
-  3. jika sudah ter extrak pilih salah satu file yang ingin kalian install pada mikrotik.
-  4. Untuk menginstall nya kita buka dulu menu file pada mikrotik.
-  5. Setelah buka menu file nantinya akan muncul new tab file list, nah paket yang kita ekstrak tadi, tinggal kita drag saja ke winboxnya, file packages nya nanti akan tersimpan pada file list ini.
-  6. Proses upload pakages sedang dilakukan mohon ditunggu sebentar
-  7. Nah setelah diupload (pastikan versinya dan jenis nya sama dengan mikrotik os yang kita gunakan) dan berhasil, file tersebut secara otomatis akan muncul di tab file list.
-  8. Bila mana anda kurang yakin dengan versinya, apakah sudah sama atau belum, anda bisa buka menu system dan pilih resources, kita bisa cocokan versinya.
-  9. SS list paket sebelum kita lakukan penambahan extra paket, jumlah total ada 19 item,
-  10. Untuk menerapkan instalasi/kofigurasi, kita bisa lakukan reboot, masuk pada mode teminal masukkan perintah berikut.
-  11. Setelah proses reboot selesai, kita masuk lagi mikrotiknya melalui winbox, dan cek packages list nya, apakah bertambah?, nah setelah proses penamabahan paket berhasil, paket list  nya akan bertambah contoh pertama tadi 19 list menjadi 21, contoh nama pakages yang bertambah disini bisa dilihat pada ss yang sudah saya berikan tanda tersebut.
+
+![m]()
+
+   3. jika sudah terdownload, Untuk menginstall nya ke winbox buka file explorer masukan (ftp://[ip mikrotik]) lihat seperti yang di gambar lalu klik log on
+      copy kan, dan paste tunggu hingga beres.
+
+![m]()
+
+   4. Nah setelah diupload dan berhasil, file tersebut secara otomatis akan muncul di tab file list.
+
+![m]()
+     
+   5. Untuk menerapkan instalasi/kofigurasi, kita bisa lakukan reboot, pilih system > reboot
+      sebelum:
+
+![m]()
+
+    6. Setelah proses reboot selesai, kita masuk lagi mikrotiknya melalui winbox, dan cek packages list nya, apakah bertambah?, nah setelah proses penamabahan paket berhasil, paket list        nya akan bertambah contoh pertama tadi 11 list menjadi 23.
+
+![m]()
+      
 
 
 
